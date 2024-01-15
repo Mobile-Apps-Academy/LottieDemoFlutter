@@ -84,32 +84,27 @@ A demo of lottie animation, Developed using Flutter and Lottie package.
 
 1. Clone the repo
 ```sh
-
 git clone https://github.com/Mobile-Apps-Academy/LottieDemoFlutter.git
-
 ```
 ### Usage
 
 1. Add the lottie package package
 
 ```dart
-
 flutter pub add Lottie
-
 ```
 
 2. How to add the animation file
 
 * copy animation json file to assets/animations   
 * change pubspec.yaml file like below
-      assets:
-        - assets/animations/
+    *  assets:
+    *   - assets/animations/
 * run flutter pub get
 
 3. How to add the animation widget
 
 ```dart
-
 Lottie.asset(
    'assets/animations/bottle_anim.json',   
    fit: BoxFit.contain,
@@ -117,8 +112,6 @@ Lottie.asset(
    height: 400,
    repeat: true,
 ),
-  
-  
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -170,4 +163,4 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [Twitter]: https://img.shields.io/badge/twitter-696969?style=for-the-badge&logo=twitter&logoColor=white
 [Twitter-url]: https://twitter.com/MobileAppsAcdmy
 
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/screenshot.gif
